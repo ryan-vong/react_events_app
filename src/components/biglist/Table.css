@@ -1,0 +1,45 @@
+.tb-container {
+  overflow-x: auto; /* Needed for table to be responsive */
+}
+
+.tb {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tb-head {
+  background-color: #ADADAD;
+}
+
+.tb-head tr th {
+  padding: 10px 20px;
+  color: #2E1114;
+  text-align: left;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.tb-body {
+  text-align: left;
+  background-color: #ADADAD;
+}
+
+.tb-body tr td {
+  padding: 24px 20px;
+  border-bottom: 2px solid #87939e; /* #243647; */
+  color: #501B1D;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.tb-id {
+  color: #501B1D;
+  margin-right: 18px;
+  font-size: 13px;
+}
+
+.tb-name {
+  color: #2E1114;
+  margin-right: 6px;
+}
