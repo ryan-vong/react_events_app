@@ -2,7 +2,9 @@
   "name": "react-events",
   "version": "1.0.0",
   "private": true,
+  "homepage": "http://ryan-vong.github.io/react_events_app",
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "react-scripts": "^2.1.1"
   },
   "dependencies": {
@@ -15,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
