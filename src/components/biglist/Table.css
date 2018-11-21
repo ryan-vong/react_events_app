@@ -14,10 +14,11 @@
 
 .tb-head tr th {
   padding: 10px 20px;
-  color: #2E1114;
+  color: #fff;
   text-align: left;
   font-size: 1em;
   font-weight: 800;
+  background-color: #2E1114;
 }
 
 .tb-body {
@@ -31,6 +32,10 @@
   color: #501B1D;
   cursor: pointer;
   font-weight: 500;
+}
+
+.tb-body tr:hover td {
+    background-color: #fff;
 }
 
 .tb-id {

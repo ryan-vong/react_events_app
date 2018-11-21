@@ -6,7 +6,7 @@ const Header = () => {
  <div className="Header">
 
  <Link to="/">
-     <button type="button">
+     <button type="button" class="button">
      JavaScript Seminars
      </button>
  </Link>

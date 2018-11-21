@@ -47,3 +47,16 @@ body {
 input::-ms-clear {
   display: none;
 }
+
+.button {
+    background-color: #64485C;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
